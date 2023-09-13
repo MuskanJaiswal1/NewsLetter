@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant:wght@300&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  /* height: 5000px; */
+  line-height: 1.5;
+  font-family: "Ysabeau Infant", sans-serif;
+}
+nav {
+  position: sticky;
+  top: 0px;
+  height: 55px;
+  background-color: #212529;
+}
+nav ul {
+  list-style: none;
+  display: flex;
+}
+nav ul li {
+  padding: 0.5rem 0.7rem;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #6c757d;
+  /* padding: 0.5rem 0.7rem; */
+  font-size: 1.2rem;
+}
+nav ul li a:hover {
+  cursor: pointer;
+  color: #a9b2bb;
+}
+#main {
+  font-size: 24px;
+  font-weight: 500;
+  color: white;
+}
+#left_nav {
+  float: left;
+}
+#right_nav {
+  float: right;
+}
+#newsQuery {
+  height: 31px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 0px 14px;
+}
+#searchBtn {
+  padding: 6px 14px;
+  border: 2px solid #28a745;
+  border-radius: 5px;
+  background: transparent;
+  color: #28a745;
+  font-size: 16px;
+}
+#searchBtn:hover {
+  color: white;
+  background-color: #28a745;
+  cursor: pointer;
+}
+h1 {
+  margin-top: 1rem;
+  text-align: center;
+  font-weight: 700;
+}
+/* 
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  max-width: 1140px;
+  margin-right: auto;
+  margin-left: auto;
+} */
+.row {
+  display: grid;
+  grid-template-columns: 430px 430px 430px;
+  justify-content: center;
+}
+.card {
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  display: flex;
+  flex-direction: column;
+  border-radius: 0.25rem;
+  padding: 1.25rem;
+  /* width: 28%; */
+  margin: 1.5rem;
+}
+.card h6 {
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.4);
+}
+.date {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+.btn {
+  /* width: 6rem; */
+  padding: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  background-color: #212529;
+  text-decoration: none;
+  color: white;
+}
+.btn:hover {
+  cursor: pointer;
+  color: #a9b2bb;
+}
