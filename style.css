@@ -66,15 +66,6 @@ h1 {
   text-align: center;
   font-weight: 700;
 }
-/* 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  max-width: 1140px;
-  margin-right: auto;
-  margin-left: auto;
-} */
 .row {
   display: grid;
   grid-template-columns: 430px 430px 430px;
